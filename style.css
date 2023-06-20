@@ -1,0 +1,53 @@
+
+header {
+    background-color: rgb(40, 3, 30);
+    width: 100%;
+}
+/*style de la partie nav*/
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 55px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 53px;
+}
+
+a:hover {
+    color: rgb(40, 16, 136);
+}
+/* style de la partie main */
+main {
+    display: flex;
+}
+
+.maPhoto {
+    margin: 12px;
+}
+
+h2 {
+    padding: 12px;
+}
+
+.contact {
+    width: 30%;
+    background-color: rgb(44, 30, 30);
+    color: white;
+    padding: 30px;
+}
+
+.presentation {
+    width: 70%;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+/*style footer*/
+footer{
+    text-align: center;
+}
